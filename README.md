@@ -7,7 +7,7 @@ This repository contains my solutions for [Advent of Code 2024](https://adventof
 1. Make sure you have Rust installed. If not, install it from [rustup.rs](https://rustup.rs/)
 2. Clone this repository:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/ImanolGo/advent-of-code-2024.git
 cd advent-of-code-2024
 ```
 
