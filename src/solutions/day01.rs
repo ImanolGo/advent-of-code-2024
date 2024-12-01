@@ -1,7 +1,6 @@
 // src/solutions/dayXX.rs
 use crate::utils::input;
 use anyhow::Result;
-use itertools::DedupBy;
 
 pub fn solve() -> Result<()> {
     let input = input::read_day_input(1)?;
@@ -23,7 +22,7 @@ fn parse_input(input: &str) -> (Vec<i64>, Vec<i64>) {
         .lines()
         .filter(|line| !line.is_empty()) // Skip empty lines
         .map(|line| {
-            let mut numbers = line
+            let numbers = line
                 .split_whitespace()
                 .map(|n| n.parse().unwrap())
                 .collect::<Vec<i64>>();
