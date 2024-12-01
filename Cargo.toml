@@ -6,11 +6,11 @@ authors = ["Imanol Gomez <imanol@steinergomez.com>"]
 
 [dependencies]
 # Common utility crates
-itertools = "0.12"
+itertools = "0.13"
 regex = "1.10"
 lazy_static = "1.4"
-rayon = "1.8"        # for parallel processing
-anyhow = "1.0"       # for error handling
+rayon = "1.8"       # for parallel processing
+anyhow = "1.0"      # for error handling
 
 [profile.release]
 opt-level = 3
