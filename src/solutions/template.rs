@@ -1,18 +1,18 @@
-// src/solutions/dayXX.rs
-use anyhow::Result;
+// src/solutions/template.rs
 use crate::utils::input;
+use anyhow::Result;
 
 pub fn solve() -> Result<()> {
-    let input = input::read_day_input(XX)?;  // Replace XX with actual day number
-    
+    let input = input::read_day_input(XX)?; // Replace XX with actual day number
+
     // Solve part 1
     let part1_result = solve_part1(&input);
     println!("Part 1: {}", part1_result);
-    
+
     // Solve part 2
     let part2_result = solve_part2(&input);
     println!("Part 2: {}", part2_result);
-    
+
     Ok(())
 }
 
