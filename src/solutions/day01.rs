@@ -1,4 +1,4 @@
-// src/solutions/dayXX.rs
+// src/solutions/day01.rs
 use crate::utils::input;
 use anyhow::Result;
 
